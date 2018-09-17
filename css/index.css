@@ -58,17 +58,57 @@ body{
 }
 .header_wrapper .navbar-default ul li.active a{
     background:none;
-    color:#73b949;
+    color:#004592;
 }
 .header_wrapper .navbar-default ul li.active:hover a,.header_wrapper .navbar-default ul li:hover a{
     background:none;
-    color:#73b949;
+    color:#004592;
 }
 .header_wrapper .navbar{
     margin-bottom:0;
 }
 
 /*container*/
+/* banner */
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+.waterItem{
+    position:relative;
+    overflow:hidden;
+    padding:10px 0;
+}
+.waterItem .left{
+    width:70%;
+    height:auto;
+    display:inline-block;
+    float:left;
+}
+.waterItem .right{
+    width:30%;
+    height:auto;
+    display:inline-block;
+    float:left;
+}
+.service_wrapper .serviceDetail .service_con .waterItem .left img{
+    display:block;
+    height:auto;
+    width:auto;
+    max-width:100%;
+    max-height:300px;
+}
+.service_wrapper .serviceDetail .service_con .waterItem .right img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.line{
+    height:1px;
+    width:100%;
+    background:#e5e5e5;
+}
 /*area*/
 .conItem{
     padding:40px 0;
@@ -86,7 +126,7 @@ body{
     content:"";
     width:70px;
     height:4px;
-    background:#73b949;
+    background:#004592;
     top:50%;
     margin-top:-2px;
 }
@@ -146,7 +186,7 @@ body{
     margin:0;
     text-align: center;
     line-height:45px;
-    background:#73b949;
+    background:#004592;
     color:#fff;
     font-size:20px;
 }
@@ -242,7 +282,7 @@ body{
 }
 .conItem  .container_con.infoCenter .right i.detail{
     font-size:12px;
-    color:#73b949;
+    color:#004592;
     line-height:25px;
 }
 .conItem  .container_con.infoCenter  .more{
@@ -251,12 +291,12 @@ body{
 .conItem  .container_con.infoCenter  .more a{
     display:inline-block;
     margin:0 auto;
-    border:1px solid #73b949;
+    border:1px solid #004592;
     border-radius: 3px;
     padding:0 40px;
     font-size:14px;
     line-height:25px;
-    color:#73b949;
+    color:#004592;
 }
 
 
@@ -277,7 +317,7 @@ body{
     border-bottom:4px solid transparent;
 }
 .greLine.header_wrapper{
-    border-bottom:4px solid #73b949;
+    border-bottom:4px solid #004592;
 }
 .breadcrumb{
   background:none;
@@ -289,7 +329,7 @@ body{
     line-height:25px;
 }
 .breadcrumb li a{
-    color: #73b949;
+    color: #004592;
 }
 .breadcrumb>li+li:before{
     content:">";
@@ -321,7 +361,7 @@ body{
     font-size:16px;
 }
 .service_wrapper .leftTitleList li.active a,.service_wrapper .leftTitleList li:hover a{
-    background:#73b949;
+    background:#004592;
     color:#fff;
 }
 
@@ -331,6 +371,12 @@ body{
      color:#222;
      text-align: center;
      margin-bottom:10px;
+}
+.service_wrapper .serviceDetail .service_con h5{
+    font-size:18px;
+    text-align: center;
+    line-height:25px;
+    margin:7px 0 14px 0;
 }
 .service_wrapper .serviceDetail .service_con p{
     font-size:16px;

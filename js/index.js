@@ -1,4 +1,16 @@
 $(document).ready(function(){
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    })
+
     $.get("./json/info.json",function(res){
         var infoList=res.info;
         var len=(infoList.length>3)?3:(infoList.length);
