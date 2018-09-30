@@ -56,16 +56,29 @@ body{
     font-size:18px;
     color:#363636
 }
-.header_wrapper .navbar-default ul li.active a{
-    background:none;
-    color:#004592;
+.header_wrapper .navbar-default ul li.active a,.header_wrapper .navbar-default ul li.active:hover a{
+    background:#004592;
+    color:#fff;
 }
-.header_wrapper .navbar-default ul li.active:hover a,.header_wrapper .navbar-default ul li:hover a{
+.header_wrapper .navbar-default ul li:hover a{
     background:none;
     color:#004592;
 }
 .header_wrapper .navbar{
     margin-bottom:0;
+}
+.navbar-brand{
+    padding:0;
+
+}
+.navbar-brand .logo{
+    position:relative;
+    height:50px;
+}
+.navbar-brand .logo img{
+    display:block;
+    height:100%;
+    width:auto;
 }
 
 /*container*/
@@ -179,7 +192,7 @@ body{
     right:0;
     width:100%;
     z-index:100;
-    background:rgba(0,0,0,0.8);
+    background:rgba(0,69,146,0.6);
     color:#fff;
 }
 .conItem  .container_con .msg h3{
@@ -201,11 +214,11 @@ body{
     -webkit-animation:animate_top 1s linear  forwards;
 }
 @-webkit-keyframes animate_top{
-    from{bottom:-80%;}
+    from{bottom:-64px;}
     to{bottom:0}
 }
 @keyframes animate_top{
-    from{bottom:-80%;}
+    from{bottom:-64px;}
     to{bottom:0}
 }
 
@@ -277,13 +290,19 @@ body{
     -webkit-line-clamp:2;
     -webkit-box-orient: vertical;
 }
+/*.conItem  .container_con.infoCenter .right .con p{
+    text-indent: 2em;
+}*/
 .conItem  .container_con.infoCenter .right img{
     display:none;
 }
 .conItem  .container_con.infoCenter .right i.detail{
+    font-style: normal;
     font-size:12px;
-    color:#004592;
+    background:#0876f1;
+    color:#fff;
     line-height:25px;
+    padding:0 7px;
 }
 .conItem  .container_con.infoCenter  .more{
     text-align: center;
@@ -299,7 +318,6 @@ body{
     color:#004592;
 }
 
-
     /*footer*/
 .footer_wrapper{
     padding:20px 0;
@@ -314,7 +332,8 @@ body{
 
 /*aboutUs*/
 .header_wrapper{
-    border-bottom:4px solid transparent;
+    /*border-bottom:4px solid transparent;*/
+    border-bottom:none;
 }
 .greLine.header_wrapper{
     border-bottom:4px solid #004592;
@@ -360,9 +379,12 @@ body{
     padding:0 15px;
     font-size:16px;
 }
-.service_wrapper .leftTitleList li.active a,.service_wrapper .leftTitleList li:hover a{
+.service_wrapper .leftTitleList li.active a,.service_wrapper .leftTitleList li.active:hover a{
     background:#004592;
     color:#fff;
+}
+.service_wrapper .leftTitleList li:hover a{
+    color:#004592;
 }
 
 .service_wrapper .serviceDetail .serviceTitle h3{

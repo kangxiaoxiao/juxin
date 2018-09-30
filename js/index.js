@@ -24,7 +24,7 @@ $(document).ready(function(){
                "                                   </div>" +
                "                                   <div class='right'>" +
                "                                       <h3>"+infoList[i].title+"</h3>" +
-               "                                       <p class='con'>"+infoList[i].content+"</p>\n" +
+               "                                       <div class='con'>"+infoList[i].content+"</div>\n" +
                "                                       <i class='detail'>查看详情></i>" +
                "                                   </div>" +
                "                               </a>" +
