@@ -1,31 +1,19 @@
-.equCon .imgWrapper{
-    display: block;
-    overflow:hidden;
-    position:relative;
-    font-size:0;
-}
-.equCon .imgWrapper li{
+.equCon .imgWrapper a{
     display:block;
-    float:left;
-    vertical-align: top;
-    width:25%;
 }
-.equCon .imgWrapper li a{
-    display:block;
-    margin:7px;
-}
-.equCon .imgWrapper li a .imgCon{
+.equCon .imgWrapper a .imgCon{
     padding:7px;
     background:#e5e5e5;
 }
-.equCon .imgWrapper li img{
+.equCon .imgWrapper  img{
     display:block;
     width:100%;
     height:auto;
 }
-.equCon .imgWrapper li p{
+.equCon .imgWrapper  p{
     text-align:center;
     font-size:14px;
     line-height:25px;
     color:#333;
+    margin-bottom:10px;
 }
