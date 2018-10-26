@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b4f03c-9365-4958-9fef-6a91b2939f03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/equ.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equipmentList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/address.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/tel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infoDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/infoDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/infoList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -209,7 +197,7 @@
       <path value="$PROJECT_DIR$/node_modules/swiper/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="371" />
     <option name="y" value="2" />
     <option name="width" value="1554" />
@@ -286,15 +274,15 @@
       <workItem from="1536041506656" duration="3233000" />
       <workItem from="1537152906126" duration="10969000" />
       <workItem from="1538041844969" duration="1692000" />
-      <workItem from="1538275341909" duration="10986000" />
+      <workItem from="1538275341909" duration="11584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74185000" />
+    <option name="totallyTimeSpent" value="74783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13066386" />
